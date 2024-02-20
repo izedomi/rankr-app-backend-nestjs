@@ -1,10 +1,9 @@
 {
-  "name": "ranker-course",
+  "name": "rankr-app",
   "version": "0.0.1",
   "description": "Make decisions with friends via ranked voting!",
   "main": "index.js",
   "workspaces": [
-    "client",
     "server",
     "shared"
   ],
@@ -19,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JacobSNGoodwin/ranker.git"
+    "url": "https://github.com/izedomi/rankr-app-backend-nestjs.git"
   },
   "keywords": [
     "ts",
@@ -27,16 +26,15 @@
     "nestjs",
     "socketjs"
   ],
-  "author": "Jacob Goodwin",
+  "author": "Emmanuel Izedomi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JacobSNGoodwin/ranker/issues"
-  },
-  "homepage": "https://github.com/JacobSNGoodwin/ranker#readme",
   "devDependencies": {
     "@types/webpack": "^5.28.0",
     "concurrently": "^7.0.0",
     "prettier": "^2.5.1",
     "wait-on": "^6.0.1"
+  },
+  "dependencies": {
+    "socket.io": "^4.1.3"
   }
 }
